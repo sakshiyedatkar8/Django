@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>
+
+Result is:
+</title>
+</head>
+<body>
+
+{% if result <= 18.5 %}
+BMI is :{{result }} Underweight
+{% elif result < 24.9 and result > 18.5 %}
+BMI is :{{result}} Normal Weight
+{%elif result < 29.9 and result > 25%}
+BMI is : {{result}} Overweight
+{%elif result > 30%}
+BMI is :{{result}} Obesity
+{% endif %}
+</body>
+</html>
