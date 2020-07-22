@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Displayed Database</title>
+</head>
+<body>
+<ul>
+    {%for index in all_data%}
+        ID:{{index.id}}&nbsp;&nbsp;&nbsp;
+        User Name:{{index.user_name}}&nbsp;&nbsp;&nbsp;
+        Password:{{index.password}}&nbsp;&nbsp;&nbsp;
+        Phone Number:{{index.phone}}&nbsp;&nbsp;&nbsp;
+        Address:{{index.address}}&nbsp;&nbsp;&nbsp;
+        <br>
+    {%endfor%}
+</ul>
+<br>
+</body>
+</html>
